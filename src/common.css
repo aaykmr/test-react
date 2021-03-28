@@ -319,7 +319,10 @@ div[class*="MuiBox-root-2"]{
     .searchBox{
         width:100% !important;
     }
-   
+    .notifDrop{
+        float: right;
+        right:auto;
+    }
 
 }
 @media only screen and (max-width: 572px) {
@@ -351,7 +354,13 @@ div[class*="MuiBox-root-2"]{
     }
     
 }
+@media only screen and (max-width: 629px){
 
+    .notifDrop{
+        min-width: 200px;
+    }
+
+}
 @media only screen and (max-width: 790px) {
     .Nav{
         position: relative;

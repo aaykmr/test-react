@@ -80,7 +80,7 @@ function handleButtonClick() {
   }
   window.state.titles.push(title);
   window.state.options=options;
-  window.localStorage.setItem('notifs',JSON.stringify(window.state.titles));
+  //window.localStorage.setItem('notifs',JSON.stringify(window.state.titles));
 }
 
 function handleButtonClick2() {
