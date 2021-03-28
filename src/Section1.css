@@ -1,0 +1,16 @@
+.Section1{
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+    top: 5%;
+    left: 11%;
+    min-width: 200px;
+    border-radius: 14px;
+}
+@media only screen and (max-width: 790px) {
+    .Section1{
+        width: 100%;
+        left: 5%;
+    }
+}

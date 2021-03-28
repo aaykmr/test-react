@@ -1,0 +1,19 @@
+.Section2{
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 90%;
+    top: 7%;
+    right:3%;
+    min-width: 200px;
+    border-radius: 14px;
+}
+
+@media only screen and (max-width: 790px) {
+    .Section2{
+        float: left;
+        left: 5%;
+        margin-top: 20px ;
+        width: 100% !important;
+    }
+}

@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Baloo_Bhai";
+  src: local("BalooBHai-Regular"),
+    url("./fonts/BalooBhai-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
